@@ -1,0 +1,7 @@
+table,table td{
+    border:1px solid black;
+    text-align: center;
+}
+table{
+    margin-top: 10px;
+}
