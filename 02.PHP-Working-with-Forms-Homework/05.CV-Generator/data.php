@@ -3,7 +3,6 @@ mb_internal_encoding('UTF-8');
 
 if ($_POST) {
     //data normalization
-    echo '<pre>' . print_r($_POST, true) . '</pre>';
     $fname = trim($_POST['fname']);
     $lname = trim($_POST['lname']);
     $mail = trim($_POST['mail']);
